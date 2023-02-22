@@ -42,13 +42,9 @@ $estilos: (
 }
 .contentTel {
     @include contenedortel;
-}
-.contentTel {
     padding-top: 7.5px;
     margin-left: 25px;
     margin-right: 10px;
-}
-.contentTel {
     padding-top: map-get($estilos, ptop);
     margin-left: map-get($estilos, mleft);
     margin-right: map-get($estilos, mright);
