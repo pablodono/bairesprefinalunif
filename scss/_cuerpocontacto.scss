@@ -1,0 +1,174 @@
+
+/* MAIN */
+
+
+
+/* CUERPO FORMULARIO */
+
+
+.contenedorFondoFlex {
+    display: flex;
+    width: 100%;
+    height: 650px;
+    background-image: url(../assets/mensaje2.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(100%);
+}
+.tituloContactanos {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
+    font-weight: 800;
+    margin: 50px auto;
+}
+
+h1 {
+color: white;
+}
+h3 {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+.cardMensaje {
+    width: 500px;
+    height: 550px;
+    background-color:rgba(215, 222, 220, 0.2);
+    color: white;
+    border-radius: 25px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+/*FORMULARIO*/
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+    color: #ffffff;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+    color: #ffffff;
+}
+input::placeholder, textarea::placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+input:focus::placeholder, textarea::focus:placeholder {
+    color: #ffffff;
+}
+input::-ms-placeholder, textarea::-ms-placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+    color: #bbb5af;
+}
+
+  /* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+    color: #cbc6c1;
+}
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+    color: #cbc6c1;
+}
+input:hover::placeholder, textarea:hover::placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+    color: #cbc6c1;
+}
+input:hover::placeholder, textarea:hover::placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+    color: #cbc6c1;
+}
+
+
+#form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+}
+input {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    width: 420px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+input:hover {
+    background: #571bed;
+    color: #e2dedb;
+}
+textarea {
+    width: 420px;
+    max-width: 420px;
+    height: 110px;
+    max-height: 110px;
+    resize: none;
+    padding: 15px;
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    border: solid 1px #ffffff;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+textarea:hover {
+    background: #571bed;
+    color: #e2dedb;
+}
+
+#submit {
+    width: 420px;
+    padding: 0;
+    margin: 25px 0px 0px 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    color: #ffffff;
+    outline:none;
+    cursor: pointer;
+    border: solid 1px #ffffff;
+}
+#submit:hover {
+    color: #e2dedb;
+}
+
+
+/* FIN FORMULARIO */

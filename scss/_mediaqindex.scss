@@ -1,0 +1,67 @@
+
+/* MEDIAS QUERIES 1 */
+@media (max-width: 1083px) {
+    .contenedorCont {
+      display: flex;
+      flex-direction: column;
+      margin: auto; }
+    .Contacto1 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center; }
+    .Contacto1, .Contacto2, .Contacto3 {
+      margin: 25px auto; }
+    .contenedorCont .Contacto2 {
+      margin-bottom: 25px; }
+    .contenedorCont .Contacto3 {
+      margin-bottom: 25px; } 
+    }
+  
+    /* MEDIAS QUERIES 2 */
+    @media (max-width: 991px) {
+    .cardHome {
+      width: 90%;
+    }
+  }
+  
+  /* MEDIAS QUERIES 3 */
+  @media (max-width: 830px) {
+    .lineaAzul {
+      width: 100%;
+      height: 45px;
+      flex-wrap: nowrap;
+      justify-content: center; }
+    .menu {
+      font-size: 0.8rem; }
+    .lineaAzul .Seccion h4 {
+      display: none; 
+    } 
+    .cardHome {
+      width: 90%;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      font-size: 0.7rem;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 20px; 
+    }
+    .cardHome:hover {
+      background-color: white;
+      transition: all 0.3s; 
+    }
+    .cardHome h1, p {
+      text-align: center;
+      color: black;
+      margin: 30px 10px 30px 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 800; 
+    }
+    .cardHome p {
+      font-size: 1rem;
+      font-weight: 400; 
+      margin: 20px 30px 20px 30px;
+      text-align: justify;
+    }
+  }

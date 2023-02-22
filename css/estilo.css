@@ -1,0 +1,1810 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #121F3D; }
+
+/* NAVBAR */
+nav {
+  background: linear-gradient(90deg, black 0%, #33108c 53%, #571bed 100%); }
+  nav .navbar-collapse {
+    margin: 10px; }
+  nav .letraB {
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 5px; }
+  nav .letraB:hover {
+    color: white;
+    background-color: #571bed;
+    border-radius: 25px;
+    transition: all .5s; }
+  nav .letraB:focus {
+    color: white;
+    background-color: #361292;
+    border-radius: 25px;
+    transition: all .5s; }
+  nav .logo {
+    width: 161px;
+    height: 60px;
+    position: relative;
+    top: 4px;
+    left: 4px; }
+  nav .logoBairesNav {
+    width: 161px;
+    height: 60px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    margin-right: 50px;
+    margin-bottom: 10px; }
+
+/* LINEA AZUL */
+.lineaAzul {
+  background-color: #121F3D; }
+
+.lineaAzul {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.contentTel {
+  width: 170px;
+  height: 30px;
+  align-self: auto; }
+
+.contentTel {
+  padding-top: 7.5px;
+  margin-left: 25px;
+  margin-right: 10px; }
+
+.contentTel {
+  padding-top: 7.5px;
+  margin-left: 25px;
+  margin-right: 10px; }
+
+.tel {
+  width: 170px;
+  height: 30px;
+  color: white;
+  border: solid 2px #03A9F4;
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  align-self: auto; }
+
+.tel:hover {
+  background-color: #6225c5;
+  transition: all .5s; }
+
+.lineaAzul .contentTel a {
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-decoration: none; }
+
+.lineaAzul .Seccion {
+  font-size: 1rem;
+  margin-left: 25px; }
+  .lineaAzul .Seccion .lineaAzul .Seccion h4 {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #f0fff3;
+    text-decoration: none; }
+
+.lineaAzul .contentMail a {
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-decoration: none; }
+
+.contentMail {
+  width: 200px;
+  height: 30px;
+  align-self: auto;
+  padding-top: 7.5px;
+  margin-left: 10px; }
+
+.Mail {
+  width: 220px;
+  height: 30px;
+  color: white;
+  border: solid 2px #03A9F4;
+  font-size: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20; }
+
+.Mail:hover {
+  background-color: #6225c5;
+  transition: all .5s; }
+
+/* MAIN HOME */
+/* CARD-HOME */
+.contenedorHome {
+  display: flex; }
+
+.contenedorHome {
+  width: 100%;
+  height: 680px;
+  background-image: url(../assets/tribu8.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.cardHome {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 0.7rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px; }
+
+.cardHome:hover {
+  background-color: white;
+  transition: all 0.3s; }
+
+.cardHome h1, p {
+  text-align: center;
+  color: black;
+  margin: 30px 10px 30px 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 800; }
+
+.cardHome p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 20px 30px 20px 30px;
+  text-align: justify; }
+
+/* CUERPO NOSOTROS */
+.contenedorGralBogas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 2px 2px;
+  grid-auto-flow: row;
+  grid-template-areas: "Abogada1 Abogada1 Abogada1 Abogada1" "Abogado2 Abogado2 Abogado3 Abogado3"; }
+
+.Abogada1 {
+  grid-area: Abogada1; }
+
+.Abogado2 {
+  grid-area: Abogado2; }
+
+.Abogado3 {
+  grid-area: Abogado3; }
+
+.contenedorGralBogas {
+  flex-direction: row;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  background-color: #121F3D;
+  background-image: url(../assets/tribu1.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-items: center; }
+  .contenedorGralBogas img {
+    text-align: start;
+    width: 420px;
+    height: 280px; }
+
+.ContNombre {
+  width: 23rem; }
+
+.Categoria h3 {
+  width: 23rem;
+  margin: 0; }
+
+.Abogada1 {
+  width: 90%;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  display: flex;
+  padding: 20px; }
+  .Abogada1 h2 {
+    font-weight: 800;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    color: #000000; }
+  .Abogada1 h3 {
+    font-weight: 800;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin: 7px;
+    color: #000000; }
+  .Abogada1 p {
+    color: black;
+    font-weight: 400;
+    font-size: 0.95rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 8px; }
+  .Abogada1 .FotoAbo1 {
+    width: 420px;
+    text-align: start;
+    margin-top: 7px; }
+  .Abogada1 .descBoga1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: start;
+    flex-direction: column;
+    align-content: stretch;
+    margin-top: 45px;
+    padding: 10px; }
+    .Abogada1 .descBoga1 p {
+      text-align: justify; }
+
+.Abogada1:hover {
+  background-color: white;
+  transition: all .5s; }
+
+.Abogado2 {
+  width: 80%;
+  height: 345px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px; }
+  .Abogado2 h2 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin: 7px;
+    color: #000000; }
+  .Abogado2 p {
+    color: black;
+    font-weight: 400;
+    font-size: 0.95rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; }
+  .Abogado2 h3 {
+    font-weight: 800;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin: 7px;
+    color: #000000; }
+  .Abogado2 img {
+    width: 300px;
+    height: 162px;
+    text-align: start;
+    margin: 7px; }
+
+.Abogado2:hover {
+  background-color: white;
+  transition: all .5s; }
+
+.descBoga2, .descBoga3 {
+  margin-top: 4px;
+  padding: 10px; }
+  .descBoga2 p, .descBoga3 p {
+    text-align: justify; }
+
+.Abogado3 {
+  width: 80%;
+  height: 345px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px; }
+  .Abogado3 h2 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin: 7px;
+    color: #000000; }
+  .Abogado3 p {
+    color: black;
+    font-weight: 400;
+    font-size: 0.95rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; }
+  .Abogado3 h3 {
+    font-weight: 800;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin: 7px;
+    color: #000000; }
+  .Abogado3 img {
+    width: 300px;
+    height: 162px;
+    text-align: start;
+    margin: 7px; }
+
+.Abogado3:hover {
+  background-color: white;
+  transition: all .5s; }
+
+/* CUERPO SERVICIOS */
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 2px;
+  grid-auto-flow: row;
+  grid-template-areas: "Servicio1 Servicio3 Servicio2" "Servicio4 Servicio5 Servicio6"; }
+
+.Servicio1 {
+  grid-area: Servicio1; }
+
+.Servicio2 {
+  grid-area: Servicio2; }
+
+.Servicio3 {
+  grid-area: Servicio3; }
+
+.Servicio4 {
+  grid-area: Servicio4; }
+
+.Servicio5 {
+  grid-area: Servicio5; }
+
+.Servicio6 {
+  grid-area: Servicio6; }
+
+.contenedor {
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #121F3D;
+  background-image: url(../assets/fondos/fondo-arriba-martillo.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat; }
+  .contenedor .Servicio1 h2, .contenedor .Servicio2 h2, .contenedor .Servicio3 h2 {
+    padding: 0.4rem;
+    color: black;
+    font-weight: 800;
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif; }
+  .contenedor .Servicio1 h3, .contenedor .Servicio2 h3, .contenedor .Servicio3 h3 {
+    color: black;
+    font-weight: 800;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px; }
+  .contenedor .Servicio1 p, .contenedor .Servicio2 p, .contenedor .Servicio3 p {
+    color: black;
+    font-weight: 400;
+    font-size: 0.90rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin-top: 0.1rem;
+    padding-top: 0.5px; }
+  .contenedor .Servicio4 h2, .contenedor .Servicio5 h2, .contenedor .Servicio6 h2 {
+    padding: 0.4rem;
+    color: black;
+    font-weight: 800;
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif; }
+  .contenedor .Servicio4 h3, .contenedor .Servicio5 h3, .contenedor .Servicio6 h3 {
+    color: black;
+    font-weight: 800;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px; }
+  .contenedor .Servicio4 p, .contenedor .Servicio5 p, .contenedor .Servicio6 p {
+    color: black;
+    font-weight: 400;
+    font-size: 0.90rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin-top: 0.4rem;
+    padding-top: 7px;
+    padding-bottom: 7px; }
+
+.contenedor .Servicio1, .contenedor .Servicio2, .contenedor .Servicio3, .contenedor .Servicio4, .contenedor .Servicio5, .contenedor .Servicio6 {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  height: 450px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  align-items: center;
+  align-content: center;
+  justify-content: start;
+  justify-items: center;
+  padding: 1rem;
+  margin: 1rem; }
+
+.contenedor .Servicio3 {
+  width: 420px;
+  height: 490px; }
+
+.contenedor .Servicio4, .contenedor .Servicio5, .contenedor .Servicio6 {
+  width: 420px;
+  height: 230px; }
+
+.contenedor .Servicio1:hover, .contenedor .Servicio2:hover, .contenedor .Servicio3:hover, .contenedor .Servicio4:hover, .contenedor .Servicio5:hover, .contenedor .Servicio6:hover {
+  background-color: white;
+  transition: all .5s; }
+
+/* CUERPO CIUDADANIAS */
+.contenedorGridCiudadanias {
+  display: grid;
+  background-color: #121F3D;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-auto-columns: 1fr;
+  gap: 2px 2px;
+  grid-auto-flow: row;
+  grid-template-areas: "CiudadaniaARG CiudadaniaITA CiudadaniaESP"; }
+
+.CiudadaniaARG {
+  grid-area: CiudadaniaARG; }
+
+.CiudadaniaITA {
+  grid-area: CiudadaniaITA; }
+
+.CiudadaniaESP {
+  grid-area: CiudadaniaESP; }
+
+/* CARDS */
+.contenedorGridCiudadanias .CiudadaniaARG {
+  display: flex;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/fondos/obelisco2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .contenedorGridCiudadanias .CiudadaniaARG .CardArgentina {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 580px;
+    background-color: rgba(215, 216, 222, 0.7);
+    color: white;
+    border-radius: 0px 25px 25px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center; }
+    .contenedorGridCiudadanias .CiudadaniaARG .CardArgentina p {
+      font-size: 1rem; }
+    .contenedorGridCiudadanias .CiudadaniaARG .CardArgentina h1 {
+      color: black;
+      font-size: 1.7rem;
+      margin-top: 10px; }
+  .contenedorGridCiudadanias .CiudadaniaARG .CardArgentina:hover {
+    background-color: #d7dedc;
+    transition: 0.3s; }
+  .contenedorGridCiudadanias .CiudadaniaARG .TitulociuARG {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 30px; }
+  .contenedorGridCiudadanias .CiudadaniaARG .bandeArg {
+    width: 300px;
+    margin-bottom: 50px; }
+  .contenedorGridCiudadanias .CiudadaniaARG .bandeArg:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.1);
+    transition: all .3s; }
+  .contenedorGridCiudadanias .CiudadaniaARG .bandeArg {
+    overflow: hidden;
+    transition: all .3s; }
+  .contenedorGridCiudadanias .CiudadaniaARG .descripcionARG {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 800;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .contenedorGridCiudadanias .CiudadaniaARG .descripcionARG:hover {
+    color: black;
+    transition: 0.3s; }
+
+.CiudadaniaITA {
+  display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/roma.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .CiudadaniaITA .CardItalia {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 580px;
+    background-color: rgba(215, 222, 220, 0.7);
+    color: white;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center; }
+    .CiudadaniaITA .CardItalia p {
+      font-size: 1rem; }
+    .CiudadaniaITA .CardItalia h1 {
+      color: black;
+      font-size: 1.7rem;
+      margin-top: 10px; }
+  .CiudadaniaITA .CardItalia:hover {
+    background-color: #d7dedc;
+    transition: 0.3s; }
+  .CiudadaniaITA .TitulociuITA {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 30px; }
+  .CiudadaniaITA .bandeITA {
+    width: 300px;
+    margin-bottom: 50px; }
+  .CiudadaniaITA .bandeITA:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.1);
+    transition: all .3s; }
+  .CiudadaniaITA .bandeITA {
+    overflow: hidden;
+    transition: all .3s; }
+  .CiudadaniaITA .descripcionITA {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 800;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .CiudadaniaITA .descripcionITA:hover {
+    color: black;
+    transition: 0.3s; }
+
+.CiudadaniaESP {
+  display: flex;
+  justify-items: center;
+  justify-content: end;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/fondos/madrid.jpg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat; }
+  .CiudadaniaESP .CardESP {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 580px;
+    background-color: rgba(215, 222, 220, 0.7);
+    color: white;
+    border-radius: 25px 0px 0px 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center; }
+    .CiudadaniaESP .CardESP p {
+      font-size: 1rem; }
+    .CiudadaniaESP .CardESP h1 {
+      color: black;
+      font-size: 1.7rem;
+      margin-top: 10px; }
+  .CiudadaniaESP .CardESP:hover {
+    background-color: #d7dedc;
+    transition: 0.3s; }
+  .CiudadaniaESP .TitulociuESP {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 30px; }
+  .CiudadaniaESP .bandeESP {
+    width: 300px;
+    margin-bottom: 50px; }
+  .CiudadaniaESP .bandeESP:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.1);
+    transition: all .3s; }
+  .CiudadaniaESP .bandeESP {
+    overflow: hidden;
+    transition: all .3s; }
+  .CiudadaniaESP .descripcionESP {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 800;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .CiudadaniaESP .descripcionESP:hover {
+    color: black;
+    transition: 0.3s; }
+
+.BotConsulta {
+  width: 170px;
+  height: 30px;
+  box-shadow: 2px 2px 15px #000;
+  background-color: #02e675;
+  border-radius: 15px;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 40px; }
+  .BotConsulta a h4 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    margin: 5px; }
+  .BotConsulta a {
+    text-decoration: none; }
+  .BotConsulta:hover {
+    background-color: #6225c5;
+    transition: all .5s; }
+
+/* CUERPO GESTORIA */
+/* CUERPO GESTORIA */
+.contenedorGridGestoria {
+  display: grid;
+  background-color: #121F3D;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-auto-columns: 1fr;
+  gap: 2px 2px;
+  grid-auto-flow: row;
+  grid-template-areas: "Personas Automotores Inmobiliario"; }
+
+.Personas {
+  grid-area: Personas; }
+
+.Automotores {
+  grid-area: Automotores; }
+
+.CiudadaniaESP {
+  grid-area: Inmobiliario; }
+
+/* CARDS */
+.Personas {
+  display: flex;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/fondos/fondo-tramites-personas.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.CardPersonas {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 680px;
+  background-color: rgba(215, 222, 220, 0.7);
+  color: white;
+  border-radius: 0px 25px 25px 0px;
+  text-align: center;
+  justify-content: center;
+  align-items: center; }
+
+.CardPersonas:hover {
+  background-color: #d7dedc;
+  transition: 0.3s; }
+
+.CardPersonas p {
+  font-size: 1rem; }
+
+.CardPersonas h1 {
+  color: black;
+  font-size: 1.7rem;
+  margin-top: 10px; }
+
+.TituloPersonas {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  color: white;
+  margin-top: 10px; }
+
+.bandePers {
+  width: 300px;
+  margin-top: 35px; }
+
+.bandePers:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.1);
+  transition: all .3s; }
+
+.bandePers {
+  overflow: hidden;
+  transition: all .3s; }
+
+.descripcionPersonas {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: 800;
+  text-align: start;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 35px; }
+
+.descripcionPersonas:hover {
+  color: black;
+  transition: 0.3s; }
+
+.BotConsulta {
+  width: 170px;
+  height: 30px;
+  box-shadow: 2px 2px 15px #000;
+  background-color: #02e675;
+  border-radius: 15px;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 40px; }
+  .BotConsulta a h4 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    margin: 5px; }
+  .BotConsulta a {
+    text-decoration: none; }
+
+.BotConsulta:hover {
+  background-color: #6225c5;
+  transition: all .5s; }
+
+.Automotores {
+  display: flex;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/fondos/fondo-auto3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center; }
+
+.CardAuto {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 680px;
+  background-color: rgba(215, 222, 220, 0.7);
+  color: white;
+  border-radius: 25px 25px 25px 25px;
+  text-align: center;
+  justify-content: center;
+  align-items: center; }
+
+.CardAuto:hover {
+  background-color: #d7dedc;
+  transition: 0.3s; }
+
+.CardAuto p {
+  font-size: 1rem; }
+
+.CardAuto h1 {
+  color: black;
+  font-size: 1.7rem;
+  margin-top: 10px; }
+
+.TituloAuto {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  color: white;
+  margin-top: 10px; }
+
+.bandeAuto {
+  width: 300px;
+  margin-top: 35px; }
+
+.bandeAuto:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.1);
+  transition: all .3s; }
+
+.bandeAuto {
+  overflow: hidden;
+  transition: all .3s; }
+
+.descripcionAuto {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: 800;
+  text-align: start;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 35px; }
+
+.descripcionAuto:hover {
+  color: black;
+  transition: 0.3s; }
+
+.Inmobiliario {
+  display: flex;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/fondos/fondo-inmo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: end; }
+
+.CardInmo {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 680px;
+  background-color: rgba(215, 222, 220, 0.7);
+  color: white;
+  border-radius: 20px 0px 0px 25px;
+  text-align: center;
+  justify-content: center;
+  align-items: center; }
+
+.CardInmo:hover {
+  background-color: #d7dedc;
+  transition: 0.3s; }
+
+.CardInmo p {
+  font-size: 1rem; }
+
+.CardInmo h1 {
+  color: black;
+  font-size: 1.7rem;
+  margin-top: 10px; }
+
+.TituloInmo {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  color: white;
+  margin-top: 10px; }
+
+.bandeInmo {
+  width: 300px;
+  margin-top: 35px; }
+
+.bandeInmo:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.1);
+  transition: all .3s; }
+
+.bandeInmo {
+  overflow: hidden;
+  transition: all .3s; }
+
+.descripcionInmo {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: 800;
+  text-align: start;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 35px; }
+
+.descripcionInmo:hover {
+  color: black;
+  transition: 0.3s; }
+
+/* CUERPO CONTACTENOS */
+/* MAIN */
+/* CUERPO FORMULARIO */
+.contenedorFondoFlex {
+  display: flex;
+  width: 100%;
+  height: 650px;
+  background-image: url(../assets/mensaje2.PNG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(100%); }
+
+.tituloContactanos {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6em;
+  font-weight: 800;
+  margin: 50px auto; }
+
+h1 {
+  color: white; }
+
+h3 {
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400; }
+
+.cardMensaje {
+  width: 500px;
+  height: 550px;
+  background-color: rgba(215, 222, 220, 0.2);
+  color: white;
+  border-radius: 25px;
+  margin: 50px auto;
+  text-align: center; }
+
+/*FORMULARIO*/
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ffffff;
+  font-size: 0.875em; }
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #ffffff; }
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #ffffff;
+  font-size: 0.875em; }
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #ffffff; }
+
+input::placeholder, textarea::placeholder {
+  color: #ffffff;
+  font-size: 0.875em; }
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #ffffff; }
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #ffffff;
+  font-size: 0.875em; }
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #bbb5af; }
+
+/* on hover placeholder */
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em; }
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #cbc6c1; }
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em; }
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #cbc6c1; }
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em; }
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #cbc6c1; }
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em; }
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #cbc6c1; }
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto; }
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 420px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  outline: none;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out; }
+
+input:hover {
+  background: #571bed;
+  color: #e2dedb; }
+
+textarea {
+  width: 420px;
+  max-width: 420px;
+  height: 110px;
+  max-height: 110px;
+  resize: none;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  border: solid 1px #ffffff;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out; }
+
+textarea:hover {
+  background: #571bed;
+  color: #e2dedb; }
+
+#submit {
+  width: 420px;
+  padding: 0;
+  margin: 25px 0px 0px 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px #ffffff; }
+
+#submit:hover {
+  color: #e2dedb; }
+
+/* FIN FORMULARIO */
+/* CONTACTO GENERAL */
+.Contacto1, .Contacto2, .Contacto3 {
+  background-color: #121F3D; }
+
+.contenedorCont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 2px 2px;
+  grid-auto-flow: row;
+  grid-template-areas: "Contacto1 Contacto2 Contacto3"; }
+
+.Contacto1 {
+  grid-area: Contacto1; }
+
+.Contacto2 {
+  grid-area: Contacto2; }
+
+.Contacto3 {
+  grid-area: Contacto3; }
+
+.contenedorCont {
+  background-color: #121F3D;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 5px auto; }
+  .contenedorCont .Contacto1 {
+    display: flex;
+    border: solid 2px #03A9F4;
+    width: 354px;
+    height: 254px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .contenedorCont .Contacto1 .Logo2 {
+      margin: 2rem; }
+      .contenedorCont .Contacto1 .Logo2 .LogoCont {
+        width: 161px; }
+      .contenedorCont .Contacto1 .Logo2 .contenedorRedes {
+        width: 200px;
+        display: flex;
+        margin-top: 5px;
+        margin-bottom: 45px;
+        justify-content: center;
+        align-items: center; }
+        .contenedorCont .Contacto1 .Logo2 .contenedorRedes .icoredes:hover {
+          filter: brightness(50%);
+          transition: all .5s; }
+  .contenedorCont .Contacto2 {
+    display: flex;
+    border: solid 2px #03A9F4;
+    width: 354px;
+    height: 254px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto; }
+    .contenedorCont .Contacto2 .ContenMenuDown {
+      width: 350px;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      margin-left: 2rem;
+      margin-right: 3rem; }
+    .contenedorCont .Contacto2 li {
+      list-style: none; }
+    .contenedorCont .Contacto2 li h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      text-decoration: none;
+      color: white; }
+    .contenedorCont .Contacto2 li a {
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 400;
+      text-decoration: underline;
+      color: #05B4CD; }
+  .contenedorCont .BAneg {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px; }
+  .contenedorCont .Contacto3 {
+    border: solid 2px #03A9F4;
+    width: 354px;
+    height: 254px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 0 auto; }
+
+.Redes h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white; }
+
+/* FOOTER GENERAL */
+.footer {
+  width: 100%;
+  background: linear-gradient(90deg, black 0%, #33108c 53%, #571bed 100%);
+  padding: 1rem; }
+  .footer h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+    color: white; }
+  .footer a {
+    color: #03A9F4;
+    text-decoration: none;
+    font-weight: 800; }
+
+/* MEDIAS QUERIES GENERAL */
+/* MEDIA Q - INDEX */
+/* MEDIAS QUERIES 1 */
+@media (max-width: 1083px) {
+  .contenedorCont {
+    display: flex;
+    flex-direction: column;
+    margin: auto; }
+  .Contacto1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin: 25px auto; }
+  .contenedorCont .Contacto2 {
+    margin-bottom: 25px; }
+  .contenedorCont .Contacto3 {
+    margin-bottom: 25px; } }
+
+/* MEDIAS QUERIES 2 */
+@media (max-width: 991px) {
+  .cardHome {
+    width: 90%; } }
+
+/* MEDIAS QUERIES 3 */
+@media (max-width: 830px) {
+  .lineaAzul {
+    width: 100%;
+    height: 45px;
+    flex-wrap: nowrap;
+    justify-content: center; }
+  .menu {
+    font-size: 0.8rem; }
+  .lineaAzul .Seccion h4 {
+    display: none; }
+  .cardHome {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 0.7rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px; }
+  .cardHome:hover {
+    background-color: white;
+    transition: all 0.3s; }
+  .cardHome h1, p {
+    text-align: center;
+    color: black;
+    margin: 30px 10px 30px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800; }
+  .cardHome p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 20px 30px 20px 30px;
+    text-align: justify; } }
+
+/* MEDIA Q - NOSOTROS */
+/* MEDIAS QUERIES 1 */
+@media (max-width: 1224px) {
+  .contenedorGralBogas .descBoga1 p, .contenedorGralBogas .descBoga2 p, .contenedorGralBogas .descBoga3 p {
+    font-size: 13.5px; } }
+
+/* MEDIAS QUERIES 1 */
+@media (max-width: 1050px) {
+  .contenedorGralBogas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas: "Abogada1 Abogada1 Abogada1 Abogada1" "Abogado2" "Abogado3"; }
+  .Abogada1 {
+    grid-area: Abogada1; }
+  .Abogado2 {
+    grid-area: Abogado2; }
+  .Abogado3 {
+    grid-area: Abogado3; }
+  .contenedorGralBogas {
+    display: flex;
+    flex-direction: column;
+    max-height: 1800px; }
+  .contenedorGralBogas .descBoga1 {
+    margin: 0; }
+    .contenedorGralBogas .descBoga1 p {
+      padding-top: 6px;
+      padding-left: 0; }
+  .lineaAzul {
+    width: 100%;
+    height: 45px;
+    flex-wrap: nowrap;
+    justify-content: center; }
+  .menu {
+    font-size: 0.8rem; }
+  .logo {
+    width: 161px;
+    height: 60px;
+    display: flex;
+    justify-items: center;
+    margin: auto; }
+  .lineaAzul .Seccion h4 {
+    display: none; }
+  .Abogada1 {
+    width: 90%;
+    height: 100%;
+    min-width: 418px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 30px; }
+  .FotoAbo1 {
+    margin-bottom: 10px; }
+  .descBoga1 p, .descBoga2 p, .descBoga3 p {
+    padding-top: 2px;
+    padding-bottom: 0;
+    margin: 0; }
+  .contenedorGralBogas .descBoga1 p {
+    font-size: 15.5px; }
+  .contenedorGralBogas .Abogado3 p, .contenedorGralBogas .Abogado2 p {
+    font-size: 15px; }
+  .Abogado2, .Abogado3 {
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 30px; }
+  .contenedorCont {
+    display: flex;
+    flex-direction: column;
+    margin: auto; }
+  .Contacto1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin: 25px auto; }
+  .contenedorCont .Contacto2 {
+    margin-bottom: 25px; }
+  .contenedorCont .Contacto3 {
+    margin-bottom: 25px; } }
+
+/* MEDIAS QUERIES 3 */
+@media (max-width: 830px) {
+  .contenedorGralBogas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas: "Abogada1 Abogada1 Abogada1 Abogada1" "Abogado2" "Abogado3"; }
+  .Abogada1 {
+    grid-area: Abogada1; }
+  .Abogado2 {
+    grid-area: Abogado2; }
+  .Abogado3 {
+    grid-area: Abogado3; }
+  .contenedorGralBogas {
+    display: flex;
+    flex-direction: column; }
+  .contenedorGralBogas {
+    max-height: 1800px; }
+  .lineaAzul {
+    width: 100%;
+    height: 45px;
+    flex-wrap: nowrap;
+    justify-content: center; }
+  .menu {
+    font-size: 0.8rem; }
+  .logo {
+    width: 161px;
+    height: 60px;
+    display: flex;
+    justify-items: center;
+    margin: auto; }
+  .lineaAzul .Seccion h4 {
+    display: none; }
+  .Abogada1, .Abogado2, .Abogado3 {
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 30px; }
+  .Abogada1 .FotoAbo1 img {
+    width: 90%; }
+  .descBoga1 p {
+    padding-top: 7px;
+    padding-bottom: 7px; } }
+
+@media (max-width: 555px) {
+  .contenedorGralBogas .descBoga1 p, .contenedorGralBogas .descBoga2 p, .contenedorGralBogas .descBoga3 p {
+    font-size: 12.8px;
+    margin-bottom: 5px; }
+  .Abogado2, .Abogado3 {
+    width: 100%;
+    margin: 10px; } }
+
+/* MEDIA Q - SERVICIOS */
+/* MEDIAS QUERIES */
+@media (max-width: 1366px) {
+  .contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    gap: 2px;
+    grid-auto-flow: row;
+    grid-template-areas: "Servicio1 Servicio4" "Servicio3 Servicio5" "Servicio2 Servicio6"; }
+  .Servicio1 {
+    grid-area: Servicio1; }
+  .Servicio2 {
+    grid-area: Servicio2; }
+  .Servicio3 {
+    grid-area: Servicio3; }
+  .Servicio4 {
+    grid-area: Servicio4; }
+  .Servicio5 {
+    grid-area: Servicio5; }
+  .Servicio6 {
+    grid-area: Servicio6; }
+  .contenedor {
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #121F3D;
+    background-image: url(../assets/fondos/fondo-arriba-martillo.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat; }
+  .Servicio1, .Servicio2, .Servicio3, .Servicio4, .Servicio5, .Servicio6 {
+    height: 95%; }
+  .contenedorCont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas: "Contacto1 Contacto2 Contacto3"; }
+  .Contacto1 {
+    grid-area: Contacto1; }
+  .Contacto2 {
+    grid-area: Contacto2; }
+  .Contacto3 {
+    grid-area: Contacto3; }
+  .contenedorCont {
+    background-color: #121F3D;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 2rem;
+    padding-bottom: 1rem; }
+  .ContenMenuDown li {
+    list-style: none; }
+  .ContenMenuDown {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 3rem; }
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin: 0 auto; } }
+
+@media (max-width: 1083px) {
+  .contenedorCont {
+    display: flex;
+    flex-direction: column;
+    margin: auto; }
+  .Contacto1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin: 25px auto; }
+  .contenedorCont .Contacto2 {
+    margin-bottom: 25px; }
+  .contenedorCont .Contacto3 {
+    margin-bottom: 25px; } }
+
+@media (max-width: 1000px) {
+  .logoBairesNav {
+    width: 161px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .contenedor {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    margin: auto;
+    justify-content: center; }
+  .contenedor {
+    background-image: url(../assets/fondos/fondo-arriba-martillo-02.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat; }
+  .contenedorCont {
+    display: flex;
+    flex-direction: column;
+    margin: auto; }
+  .Contacto1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin: 25px auto; }
+  .contenedorCont .Contacto2 {
+    margin-bottom: 25px; }
+  .contenedorCont .Contacto3 {
+    margin-bottom: 25px; }
+  /* MEDIAS QUERIES 2 */ }
+
+@media (max-width: 1000px) and (max-width: 830px) {
+  .lineaAzul {
+    width: 100%;
+    height: 45px;
+    flex-wrap: nowrap;
+    justify-content: center; }
+  .menu {
+    font-size: 0.8rem; }
+  .lineaAzul .Seccion h4 {
+    display: none; }
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin: 25px auto; }
+  .contenedorCont .Contacto2 {
+    margin-bottom: 25px; }
+  .contenedorCont .Contacto3 {
+    margin-bottom: 25px; } }
+
+/* MEDIA Q - CIUDADANIAS */
+/* MEDIAS QUERIES 1 */
+@media (max-width: 1083px) {
+  .logoBairesNav {
+    width: 161px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .contenedorGridCiudadanias {
+    display: grid;
+    background-color: #121F3D;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas: "CiudadaniaARG" "CiudadaniaITA" "CiudadaniaESP"; }
+  .CiudadaniaARG {
+    grid-area: CiudadaniaARG; }
+  .CiudadaniaITA {
+    grid-area: CiudadaniaITA; }
+  .CiudadaniaESP {
+    grid-area: CiudadaniaESP; }
+  .CiudadaniaARG, .CiudadaniaITA, .CiudadaniaESP {
+    justify-content: start; }
+  .CardArgentina, .CardItalia, .CardESP {
+    border-radius: 0px 25px 25px 0px; }
+  .contenedorCont {
+    display: flex;
+    flex-direction: column;
+    margin: auto; }
+  .Contacto1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin-bottom: 25px auto; }
+  .contenedorCont .Contacto2 {
+    margin-bottom: 25px; }
+  .contenedorCont .Contacto3 {
+    margin-bottom: 25px; } }
+
+/* MEDIAS QUERIES 2 */
+@media (max-width: 830px) {
+  .lineaAzul {
+    width: 100%;
+    height: 45px;
+    flex-wrap: nowrap;
+    justify-content: center; }
+  .menu {
+    font-size: 0.8rem; }
+  .lineaAzul .Seccion h4 {
+    display: none; } }
+
+/* MEDIA Q - CIUDADANIAS */
+/* MEDIAS QUERIES 1 */
+@media (max-width: 1083px) {
+  .logoBairesNav {
+    width: 161px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .contenedorGridGestoria {
+    display: grid;
+    background-color: #121F3D;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas: "Personas" "Automotores" "Inmobiliario"; }
+  .Personas {
+    grid-area: Personas; }
+  .Automotores {
+    grid-area: Automotores; }
+  .Inmobiliario {
+    grid-area: Inmobiliario; }
+  .Personas, .Automotores, .Inmobiliario {
+    justify-content: start; }
+  .CardPersonas, .CardAuto, .CardInmo {
+    border-radius: 0px 25px 25px 0px; }
+  .contenedorCont {
+    display: flex;
+    flex-direction: column;
+    margin: auto; }
+  .Contacto1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin: 25px auto; }
+  .contenedorCont .Contacto2 {
+    margin-bottom: 25px; }
+  .contenedorCont .Contacto3 {
+    margin-bottom: 25px; } }
+
+/* MEDIAS QUERIES 2 */
+@media (max-width: 830px) {
+  .lineaAzul {
+    width: 100%;
+    height: 45px;
+    flex-wrap: nowrap;
+    justify-content: center; }
+  .menu {
+    font-size: 0.8rem; }
+  .lineaAzul .Seccion h4 {
+    display: none; } }
+
+/* MEDIA Q - CIUDADANIAS */
+/* MEDIAS QUERIES 1 */
+@media (max-width: 1083px) {
+  .contenedorGridGestoria {
+    display: grid;
+    background-color: #121F3D;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas: "Personas" "Automotores" "Inmobiliario"; }
+  .Personas {
+    grid-area: Personas; }
+  .Automotores {
+    grid-area: Automotores; }
+  .Inmobiliario {
+    grid-area: Inmobiliario; }
+  .contenedorCont {
+    display: flex;
+    flex-direction: column;
+    margin: auto; }
+  .Contacto1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+  .Contacto1, .Contacto2, .Contacto3 {
+    margin: 25px auto; }
+  .contenedorCont .Contacto2, .Contacto3 {
+    margin-bottom: 25px; }
+  .contenedorCont .Contacto3 {
+    margin-bottom: 25px; } }
+
+/* MEDIAS QUERIES 2 */
+@media (max-width: 830px) {
+  .lineaAzul {
+    width: 100%;
+    height: 45px;
+    flex-wrap: nowrap;
+    justify-content: center; }
+  .menu {
+    font-size: 0.8rem; }
+  .lineaAzul .Seccion h4 {
+    display: none; } }
+
+/* MEDIAS QUERIES 3 */
+@media (max-width: 502px) {
+  .cardMensaje {
+    width: 350px;
+    height: auto;
+    background-color: rgba(215, 222, 220, 0.2);
+    color: white;
+    border-radius: 25px;
+    margin: 50px auto;
+    text-align: center; }
+  #form {
+    position: relative;
+    width: 330px;
+    margin: 50px auto 100px auto; }
+  input {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    width: 300px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out; }
+  input:hover {
+    background: #571bed;
+    color: #e2dedb; }
+  textarea {
+    width: 300px;
+    max-width: 420px;
+    height: 110px;
+    max-height: 110px;
+    resize: none;
+    padding: 15px;
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    border: solid 1px #ffffff;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out; }
+  textarea:hover {
+    background: #571bed;
+    color: #e2dedb; }
+  #submit {
+    width: 300px;
+    padding: 0;
+    margin: 25px 0px 0px 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    border: solid 1px #ffffff; }
+  #submit:hover {
+    color: #e2dedb; } }

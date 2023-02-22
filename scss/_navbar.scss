@@ -1,0 +1,41 @@
+nav{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,16,140,1) 53%, rgba(87,27,237,1) 100%);
+    .navbar-collapse {
+        margin: 10px;
+    }
+    .letraB {
+        color: white;
+        text-decoration: none;
+        border-radius: 25px;
+        margin: 10px;
+        padding: 5px;
+    }
+    .letraB:hover {
+        color: white;
+        background-color: rgba(87,27,237,1);
+        border-radius: 25px;
+        transition: all .5s;
+    }
+    .letraB:focus {
+        color: white;
+        background-color: rgb(54, 18, 146);
+        border-radius: 25px;
+        transition: all .5s;
+    }
+    .logo{
+        width:  161px;
+        height: 60px;
+        position: relative;
+        top: 4px;
+        left: 4px;
+    }
+    .logoBairesNav{
+        width:  161px;
+        height: 60px;
+        position: relative;
+        top: 4px;
+        left: 4px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+    }
+}

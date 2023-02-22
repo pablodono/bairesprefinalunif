@@ -1,0 +1,130 @@
+$bgla: #121F3D;
+$bghoverla: rgb(98, 37, 197);
+$bordersolidla: #03A9F4;
+
+$fondobarra:azul;
+
+.lineaAzul {
+    @if ($fondobarra == azul){
+        background-color: $bgla;
+    }
+    @else if ($fondobarra == negro){
+        background-color: black;
+    }
+    @else {
+        background-color: red;
+    }
+}
+
+$estilos: (
+    ptop: 7.5px,
+    mleft: 25px,
+    mright: 10px,
+);
+
+@mixin contenedortel {
+    width: 170px;
+    height: 30px;
+    align-self: auto;
+}
+
+.lineaAzul {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.contentTel {
+    @include contenedortel;
+}
+.contentTel {
+    padding-top: 7.5px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+.contentTel {
+    padding-top: map-get($estilos, ptop);
+    margin-left: map-get($estilos, mleft);
+    margin-right: map-get($estilos, mright);
+}
+.tel {
+    width: 170px;
+    height: 30px;
+    color: white;
+    border: solid 2px $bordersolidla;
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    align-self: auto;
+}
+.tel:hover {
+    background-color: $bghoverla;
+    transition: all .5s;
+}
+.lineaAzul .contentTel a{
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+}
+.lineaAzul .Seccion {
+    font-size: 1rem;
+    margin-left: 25px;
+    .lineaAzul .Seccion h4{
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: rgb(240, 255, 243);
+        text-decoration: none;
+    }
+}
+.lineaAzul .contentMail a{
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+}
+.contentMail {
+    width: 200px;
+    height: 30px;
+    align-self: auto;
+    padding-top: 7.5px;
+    margin-left: 10px;
+}
+.Mail {
+    width: 220px;
+    height: 30px;
+    color: white;
+    border: solid 2px #03A9F4;
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+.Mail:hover {
+    background-color: $bghoverla;
+    transition: all .5s;
+}

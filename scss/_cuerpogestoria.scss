@@ -1,0 +1,248 @@
+
+/* CUERPO GESTORIA */
+
+
+.contenedorGridGestoria { 
+    display: grid;
+    background-color: #121F3D;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-columns: 1fr;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "Personas Automotores Inmobiliario";
+}
+
+  .Personas { grid-area: Personas; }
+  .Automotores { grid-area: Automotores; }
+  .CiudadaniaESP { grid-area: Inmobiliario; }
+
+
+
+/* CARDS */
+
+.Personas {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/fondos/fondo-tramites-personas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.CardPersonas {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 680px;
+    background-color:rgba(215, 222, 220, 0.7);
+    color: white;
+    border-radius: 0px 25px 25px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.CardPersonas:hover {
+    background-color:rgba(215, 222, 220, 1);
+    transition: 0.3s;
+}
+.CardPersonas {
+    p {
+        font-size: 1rem; 
+    }
+    h1 {
+        color: rgb(0, 0, 0);
+        font-size: 1.7rem;
+        margin-top: 10px;
+        }
+}
+.TituloPersonas {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.bandePers {
+    width: 300px;
+    margin-top: 35px;
+}
+.bandePers:hover {-webkit-transform:scale(1.3);transform:scale(1.1);transition: all .3s;}
+.bandePers {overflow:hidden;transition: all .3s;} 
+.descripcionPersonas {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    text-align: start;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 35px;
+}
+.descripcionPersonas:hover {
+    color: black;
+    transition: 0.3s;
+}
+.BotConsulta {
+    width: 170px;
+    height: 30px;
+    box-shadow: 2px 2px 15px #000;
+    background-color: #02e675;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    color: white;
+    font-family:'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    a h4 {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 800;
+        text-decoration: none;
+        justify-content: center;
+        text-align: center;
+        align-self: center;
+        margin: 5px;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+.BotConsulta:hover {
+    background-color: rgb(98, 37, 197);
+    transition: all .5s;
+}
+.Automotores {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/fondos/fondo-auto3.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.CardAuto {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 680px;
+    background-color:rgba(215, 222, 220, 0.7);
+    color: white;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.CardAuto:hover {
+    background-color:rgba(215, 222, 220, 1);
+    transition: 0.3s;
+}
+.CardAuto {
+    p {
+        font-size: 1rem; 
+    }
+    h1 {
+        color: rgb(0, 0, 0);
+        font-size: 1.7rem;
+        margin-top: 10px;
+        }
+}
+.TituloAuto {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.bandeAuto {
+    width: 300px;
+    margin-top: 35px;
+}
+.bandeAuto:hover {-webkit-transform:scale(1.3);transform:scale(1.1);transition: all .3s;}
+.bandeAuto {overflow:hidden;transition: all .3s;} 
+.descripcionAuto {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    text-align: start;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 35px;
+}
+.descripcionAuto:hover {
+    color: black;
+    transition: 0.3s;
+}
+.Inmobiliario {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/fondos/fondo-inmo.jpg);
+    background-size: cover; 
+    background-position:center;
+    background-repeat: no-repeat;
+    justify-content: end;
+}
+.CardInmo {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 680px;
+    background-color:rgba(215, 222, 220, 0.7);
+    color: white;
+    border-radius: 20px 0px 0px 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.CardInmo:hover {
+    background-color:rgba(215, 222, 220, 1);
+    transition: 0.3s;
+}
+.CardInmo {
+    p {
+        font-size: 1rem; 
+    }
+    h1 {
+        color: rgb(0, 0, 0);
+        font-size: 1.7rem;
+        margin-top: 10px;
+        }
+}
+.TituloInmo {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.bandeInmo {
+    width: 300px;
+    margin-top: 35px;
+}
+.bandeInmo:hover {-webkit-transform:scale(1.3);transform:scale(1.1);transition: all .3s;}
+.bandeInmo {overflow:hidden;transition: all .3s;} 
+.descripcionInmo {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    text-align: start;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 35px;
+}
+.descripcionInmo:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+

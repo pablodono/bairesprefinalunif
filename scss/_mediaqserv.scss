@@ -1,0 +1,173 @@
+/* MEDIAS QUERIES */
+
+
+@media (max-width: 1366px) {
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr 1fr;
+        gap: 2px;
+        grid-auto-flow:row;
+        grid-template-areas:
+        "Servicio1 Servicio4"
+        "Servicio3 Servicio5"
+        "Servicio2 Servicio6";
+    }
+    
+    .Servicio1 { grid-area: Servicio1; }
+    .Servicio2 { grid-area: Servicio2; }
+    .Servicio3 { grid-area: Servicio3; }
+    .Servicio4 { grid-area: Servicio4; }
+    .Servicio5 { grid-area: Servicio5; }
+    .Servicio6 { grid-area: Servicio6; }
+
+    .contenedor {
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        margin: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #121F3D;
+        background-image: url(../assets/fondos/fondo-arriba-martillo.jpg);
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    .Servicio1, .Servicio2, .Servicio3, .Servicio4, .Servicio5, .Servicio6 {
+        height: 95% ;
+    }
+    .contenedorCont {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-auto-columns: 1fr;
+        gap: 2px 2px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "Contacto1 Contacto2 Contacto3"
+    }
+    .Contacto1 { grid-area: Contacto1; }
+    .Contacto2 { grid-area: Contacto2; }
+    .Contacto3 { grid-area: Contacto3; }
+    
+    .contenedorCont {
+        background-color: #121F3D;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        }
+    .ContenMenuDown li {
+            list-style: none;
+        }
+    .ContenMenuDown {
+        width: 350px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center; 
+        margin-left: 2rem;   
+        margin-right: 3rem;
+    }
+    .Contacto1, .Contacto2, .Contacto3 {
+        margin: 0 auto;
+        }
+    }
+
+@media (max-width: 1083px)  {
+    .contenedorCont {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .Contacto1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }    .Contacto1, .Contacto2, .Contacto3 {
+        margin: 25px auto;
+        }
+    .contenedorCont .Contacto2{
+            margin-bottom: 25px;
+        }
+    .contenedorCont .Contacto3{
+            margin-bottom: 25px;
+        }
+}
+@media (max-width: 1000px)  {
+    .logoBairesNav{
+        width:  161px;
+        height: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .contenedor {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        align-content: space-around;
+        margin: auto;
+        justify-content: center;
+    }
+    .contenedor {
+        background-image: url(../assets/fondos/fondo-arriba-martillo-02.jpg);
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    .contenedorCont {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .Contacto1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }    .Contacto1, .Contacto2, .Contacto3 {
+        margin: 25px auto;
+        }
+    .contenedorCont .Contacto2{
+            margin-bottom: 25px;
+        }
+    .contenedorCont .Contacto3{
+            margin-bottom: 25px;
+        }
+
+
+
+
+/* MEDIAS QUERIES 2 */
+
+
+@media (max-width: 830px)  {
+    .lineaAzul {
+        width: 100%;
+        height: 45px;
+        flex-wrap:nowrap;
+        justify-content: center;
+        }
+    .menu {
+        font-size: 0.8rem;
+        }
+    .lineaAzul .Seccion h4{
+        display: none;
+        }
+    .Contacto1, .Contacto2, .Contacto3 {
+        margin: 25px auto;
+        }
+    .contenedorCont .Contacto2{
+            margin-bottom: 25px;
+        }
+    .contenedorCont .Contacto3{
+            margin-bottom: 25px;
+        }
+    }
+}

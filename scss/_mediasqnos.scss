@@ -1,0 +1,190 @@
+/* MEDIAS QUERIES 1 */
+@media (max-width: 1224px)  {
+    .contenedorGralBogas .descBoga1 p, .contenedorGralBogas .descBoga2 p, .contenedorGralBogas .descBoga3 p  {
+        font-size: 13.5px;
+        }
+}
+/* MEDIAS QUERIES 1 */
+
+    @media (max-width: 1050px)  {
+        .contenedorGralBogas { 
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            grid-auto-columns: 1fr;
+            gap: 2px 2px;
+            grid-auto-flow: row;
+            grid-template-areas:
+            "Abogada1 Abogada1 Abogada1 Abogada1"
+            "Abogado2"
+            "Abogado3";
+        }
+            .Abogada1 { grid-area: Abogada1; }
+            .Abogado2 { grid-area: Abogado2; }
+            .Abogado3 { grid-area: Abogado3; }
+    
+        .contenedorGralBogas { 
+            display: flex;
+            flex-direction: column;
+            max-height: 1800px;
+        }
+        .contenedorGralBogas .descBoga1 {
+            margin: 0;
+            p {
+                padding-top: 6px;
+                padding-left: 0;
+            }
+        }
+        .lineaAzul {
+            width: 100%;
+            height: 45px;
+            flex-wrap:nowrap;
+            justify-content: center;
+        }
+        .menu {
+            font-size: 0.8rem;
+        }
+        .logo{
+            width:  161px;
+            height: 60px;
+            display: flex;
+            justify-items: center;
+            margin: auto;
+        }
+        .lineaAzul .Seccion h4{
+            display: none;
+            }
+        .Abogada1 {
+            width: 90%;
+            height: 100%;
+            min-width: 418px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .FotoAbo1 {
+            margin-bottom: 10px;
+        }
+        .descBoga1 p, .descBoga2 p, .descBoga3 p {
+            padding-top: 2px;
+            padding-bottom: 0;
+            margin: 0;
+        }
+        .contenedorGralBogas .descBoga1 p {
+            font-size: 15.5px;
+        }
+        .contenedorGralBogas .Abogado3 p, .contenedorGralBogas .Abogado2 p {
+            font-size: 15px;
+        }
+        .Abogado2, .Abogado3 {
+            width: 90%;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .contenedorCont {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+        .Contacto1 {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .Contacto1, .Contacto2, .Contacto3 {
+            margin: 25px auto;
+        }
+        .contenedorCont .Contacto2{
+            margin-bottom: 25px;
+        }
+        .contenedorCont .Contacto3{
+            margin-bottom: 25px;
+        }
+    }
+
+
+/* MEDIAS QUERIES 3 */
+
+
+@media (max-width: 830px)  {
+    .contenedorGralBogas { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-auto-columns: 1fr;
+        gap: 2px 2px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "Abogada1 Abogada1 Abogada1 Abogada1"
+        "Abogado2"
+        "Abogado3";
+    }
+        .Abogada1 { grid-area: Abogada1; }
+    
+        .Abogado2 { grid-area: Abogado2; }
+    
+        .Abogado3 { grid-area: Abogado3; }
+
+    .contenedorGralBogas { 
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorGralBogas {
+        max-height: 1800px;
+    }
+    .lineaAzul {
+        width: 100%;
+        height: 45px;
+        flex-wrap:nowrap;
+        justify-content: center;
+    }
+    .menu {
+        font-size: 0.8rem;
+        }
+    .logo{
+        width:  161px;
+        height: 60px;
+        display: flex;
+        justify-items: center;
+        margin: auto;
+    }
+    .lineaAzul .Seccion h4{
+        display: none;
+        }
+    .Abogada1, .Abogado2, .Abogado3 {
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .Abogada1 .FotoAbo1 img {
+        width: 90%;
+    }
+    .descBoga1 p {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+}
+
+
+@media (max-width: 555px)  {
+    .contenedorGralBogas .descBoga1 p, .contenedorGralBogas .descBoga2 p, .contenedorGralBogas .descBoga3 p  {
+        font-size: 12.8px;
+        margin-bottom: 5px;
+        }
+    .Abogado2, .Abogado3 {
+        width: 100%;
+        margin: 10px;
+    }
+}
