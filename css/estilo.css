@@ -473,27 +473,12 @@ nav {
   transition: all .5s; }
 
 /* CUERPO CIUDADANIAS */
-.contenedorGridCiudadanias {
-  display: grid;
-  background-color: #121F3D;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-auto-columns: 1fr;
-  gap: 2px 2px;
-  grid-auto-flow: row;
-  grid-template-areas: "CiudadaniaARG CiudadaniaITA CiudadaniaESP"; }
-
-.CiudadaniaARG {
-  grid-area: CiudadaniaARG; }
-
-.CiudadaniaITA {
-  grid-area: CiudadaniaITA; }
-
-.CiudadaniaESP {
-  grid-area: CiudadaniaESP; }
+.contGridCiudadanias {
+  display: flex;
+  background-color: #121F3D; }
 
 /* CARDS */
-.contenedorGridCiudadanias .CiudadaniaARG {
+.contGridCiudadanias .CiudadaniaARG {
   display: flex;
   justify-items: center;
   width: 100%;
@@ -502,7 +487,7 @@ nav {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
-  .contenedorGridCiudadanias .CiudadaniaARG .CardArgentina {
+  .contGridCiudadanias .CiudadaniaARG .CardArgentina {
     display: flex;
     flex-direction: column;
     width: 350px;
@@ -513,39 +498,39 @@ nav {
     text-align: center;
     justify-content: center;
     align-items: center; }
-    .contenedorGridCiudadanias .CiudadaniaARG .CardArgentina p {
+    .contGridCiudadanias .CiudadaniaARG .CardArgentina p {
       font-size: 1rem; }
-    .contenedorGridCiudadanias .CiudadaniaARG .CardArgentina h1 {
+    .contGridCiudadanias .CiudadaniaARG .CardArgentina h1 {
       color: black;
       font-size: 1.7rem;
       margin-top: 10px; }
-  .contenedorGridCiudadanias .CiudadaniaARG .CardArgentina:hover {
+  .contGridCiudadanias .CiudadaniaARG .CardArgentina:hover {
     background-color: #d7dedc;
     transition: 0.3s; }
-  .contenedorGridCiudadanias .CiudadaniaARG .TitulociuARG {
+  .contGridCiudadanias .CiudadaniaARG .TitulociuARG {
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-weight: 800;
     color: white;
     margin-bottom: 30px; }
-  .contenedorGridCiudadanias .CiudadaniaARG .bandeArg {
+  .contGridCiudadanias .CiudadaniaARG .bandeArg {
     width: 300px;
     margin-bottom: 50px; }
-  .contenedorGridCiudadanias .CiudadaniaARG .bandeArg:hover {
+  .contGridCiudadanias .CiudadaniaARG .bandeArg:hover {
     -webkit-transform: scale(1.3);
     transform: scale(1.1);
     transition: all .3s; }
-  .contenedorGridCiudadanias .CiudadaniaARG .bandeArg {
+  .contGridCiudadanias .CiudadaniaARG .bandeArg {
     overflow: hidden;
     transition: all .3s; }
-  .contenedorGridCiudadanias .CiudadaniaARG .descripcionARG {
+  .contGridCiudadanias .CiudadaniaARG .descripcionARG {
     font-family: 'Montserrat', sans-serif;
     color: black;
     font-weight: 800;
     text-align: justify;
     padding-left: 20px;
     padding-right: 20px; }
-  .contenedorGridCiudadanias .CiudadaniaARG .descripcionARG:hover {
+  .contGridCiudadanias .CiudadaniaARG .descripcionARG:hover {
     color: black;
     transition: 0.3s; }
 
@@ -1596,21 +1581,9 @@ textarea:hover {
     height: 60px;
     margin-top: 20px;
     margin-bottom: 20px; }
-  .contenedorGridCiudadanias {
-    display: grid;
-    background-color: #121F3D;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    gap: 2px 2px;
-    grid-auto-flow: row;
-    grid-template-areas: "CiudadaniaARG" "CiudadaniaITA" "CiudadaniaESP"; }
-  .CiudadaniaARG {
-    grid-area: CiudadaniaARG; }
-  .CiudadaniaITA {
-    grid-area: CiudadaniaITA; }
-  .CiudadaniaESP {
-    grid-area: CiudadaniaESP; }
+  .contGridCiudadanias {
+    display: flex;
+    flex-direction: column; }
   .CiudadaniaARG, .CiudadaniaITA, .CiudadaniaESP {
     justify-content: start; }
   .CardArgentina, .CardItalia, .CardESP {
