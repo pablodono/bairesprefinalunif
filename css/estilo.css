@@ -146,9 +146,7 @@ nav {
   transition: all .5s; }
 
 /* MAIN HOME */
-
 /* CARD-HOME */
-
 .contenedorHome {
   display: flex;
   width: 100%;
@@ -187,7 +185,6 @@ nav {
   text-align: justify; }
 
 /* CUERPO NOSOTROS */
-
 .contenedorGralBogas {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -195,8 +192,7 @@ nav {
   grid-auto-columns: 1fr;
   gap: 2px 2px;
   grid-auto-flow: row;
-  grid-template-areas: "Abogada1 Abogada1 Abogada1 Abogada1"
- "Abogado2 Abogado2 Abogado3 Abogado3"; }
+  grid-template-areas: "Abogada1 Abogada1 Abogada1 Abogada1" "Abogado2 Abogado2 Abogado3 Abogado3"; }
 
 .Abogada1 {
   grid-area: Abogada1; }
@@ -321,15 +317,13 @@ nav {
   transition: all .5s; }
 
 /* CUERPO SERVICIOS */
-
 .contenedor {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto 1fr;
   gap: 2px;
   grid-auto-flow: row;
-  grid-template-areas: "Servicio1 Servicio3 Servicio2"
- "Servicio4 Servicio5 Servicio6"; }
+  grid-template-areas: "Servicio1 Servicio3 Servicio2" "Servicio4 Servicio5 Servicio6"; }
 
 .Servicio1 {
   grid-area: Servicio1; }
@@ -434,13 +428,11 @@ nav {
   transition: all .5s; }
 
 /* CUERPO CIUDADANIAS */
-
 .contGridCiudadanias {
   display: flex;
   background-color: #121F3D; }
 
 /* CARDS */
-
 .contGridCiudadanias .CiudadaniaARG {
   display: flex;
   justify-items: center;
@@ -643,7 +635,7 @@ nav {
     transition: all .5s; }
 
 /* CUERPO GESTORIA */
-
+/* CUERPO GESTORIA */
 .contenedorGridGestoria {
   display: grid;
   background-color: #121F3D;
@@ -664,7 +656,6 @@ nav {
   grid-area: Inmobiliario; }
 
 /* CARDS */
-
 .Personas {
   display: flex;
   justify-items: center;
@@ -901,11 +892,8 @@ nav {
   transition: 0.3s; }
 
 /* CUERPO CONTACTENOS */
-
 /* MAIN */
-
 /* CUERPO FORMULARIO */
-
 .contenedorFondoFlex {
   display: flex;
   width: 100%;
@@ -941,7 +929,6 @@ h3 {
   text-align: center; }
 
 /*FORMULARIO*/
-
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: #ffffff;
   font-size: 0.875em; }
@@ -971,7 +958,6 @@ input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
   color: #bbb5af; }
 
 /* on hover placeholder */
-
 input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
   color: #e2dedb;
   font-size: 0.875em; }
@@ -1062,9 +1048,7 @@ textarea:hover {
   color: #e2dedb; }
 
 /* FIN FORMULARIO */
-
 /* CONTACTO GENERAL */
-
 .contenedorCont {
   background-color: #121F3D; }
 
@@ -1181,7 +1165,6 @@ textarea:hover {
   color: white; }
 
 /* FOOTER GENERAL */
-
 .footer {
   width: 100%;
   background: linear-gradient(90deg, black 0%, #33108c 53%, #571bed 100%);
@@ -1198,11 +1181,8 @@ textarea:hover {
     font-weight: 800; }
 
 /* MEDIAS QUERIES GENERAL */
-
 /* MEDIA Q - INDEX */
-
 /* MEDIAS QUERIES 1 */
-
 @media (max-width: 1083px) {
   .contenedorCont {
     display: flex;
@@ -1221,13 +1201,11 @@ textarea:hover {
     margin-bottom: 25px; } }
 
 /* MEDIAS QUERIES 2 */
-
 @media (max-width: 991px) {
   .cardHome {
     width: 90%; } }
 
 /* MEDIAS QUERIES 3 */
-
 @media (max-width: 830px) {
   .lineaAzul {
     width: 100%;
@@ -1263,15 +1241,12 @@ textarea:hover {
     text-align: justify; } }
 
 /* MEDIA Q - NOSOTROS */
-
 /* MEDIAS QUERIES 1 */
-
 @media (max-width: 1224px) {
   .contenedorGralBogas .descBoga1 p, .contenedorGralBogas .descBoga2 p, .contenedorGralBogas .descBoga3 p {
     font-size: 13.5px; } }
 
 /* MEDIAS QUERIES 1 */
-
 @media (max-width: 1050px) {
   .contenedorGralBogas {
     display: grid;
@@ -1280,9 +1255,7 @@ textarea:hover {
     grid-auto-columns: 1fr;
     gap: 2px 2px;
     grid-auto-flow: row;
-    grid-template-areas: "Abogada1 Abogada1 Abogada1 Abogada1"
- "Abogado2"
- "Abogado3"; }
+    grid-template-areas: "Abogada1 Abogada1 Abogada1 Abogada1" "Abogado2" "Abogado3"; }
   .Abogada1 {
     grid-area: Abogada1; }
   .Abogado2 {
@@ -1358,7 +1331,6 @@ textarea:hover {
     margin-bottom: 25px; } }
 
 /* MEDIAS QUERIES 3 */
-
 @media (max-width: 830px) {
   .contenedorGralBogas {
     display: grid;
@@ -1367,9 +1339,7 @@ textarea:hover {
     grid-auto-columns: 1fr;
     gap: 2px 2px;
     grid-auto-flow: row;
-    grid-template-areas: "Abogada1 Abogada1 Abogada1 Abogada1"
- "Abogado2"
- "Abogado3"; }
+    grid-template-areas: "Abogada1 Abogada1 Abogada1 Abogada1" "Abogado2" "Abogado3"; }
   .Abogada1 {
     grid-area: Abogada1; }
   .Abogado2 {
@@ -1419,9 +1389,7 @@ textarea:hover {
     margin: 10px; } }
 
 /* MEDIA Q - SERVICIOS */
-
 /* MEDIAS QUERIES */
-
 @media (max-width: 1366px) {
   .contenedor {
     display: grid;
@@ -1429,9 +1397,7 @@ textarea:hover {
     grid-template-rows: auto 1fr 1fr;
     gap: 2px;
     grid-auto-flow: row;
-    grid-template-areas: "Servicio1 Servicio4"
- "Servicio3 Servicio5"
- "Servicio2 Servicio6"; }
+    grid-template-areas: "Servicio1 Servicio4" "Servicio3 Servicio5" "Servicio2 Servicio6"; }
   .Servicio1 {
     grid-area: Servicio1; }
   .Servicio2 {
@@ -1547,7 +1513,6 @@ textarea:hover {
     margin-bottom: 25px; } }
 
 /* MEDIAS QUERIES 2 */
-
 @media (max-width: 830px) {
   .lineaAzul {
     width: 100%;
@@ -1566,9 +1531,7 @@ textarea:hover {
     margin-bottom: 25px; } }
 
 /* MEDIA Q - CIUDADANIAS */
-
 /* MEDIAS QUERIES 1 */
-
 @media (max-width: 1083px) {
   .logoBairesNav {
     width: 161px;
@@ -1599,7 +1562,6 @@ textarea:hover {
     margin-bottom: 25px; } }
 
 /* MEDIAS QUERIES 2 */
-
 @media (max-width: 830px) {
   .lineaAzul {
     width: 100%;
@@ -1612,9 +1574,7 @@ textarea:hover {
     display: none; } }
 
 /* MEDIA Q - CIUDADANIAS */
-
 /* MEDIAS QUERIES 1 */
-
 @media (max-width: 1083px) {
   .logoBairesNav {
     width: 161px;
@@ -1629,9 +1589,7 @@ textarea:hover {
     grid-auto-columns: 1fr;
     gap: 2px 2px;
     grid-auto-flow: row;
-    grid-template-areas: "Personas"
- "Automotores"
- "Inmobiliario"; }
+    grid-template-areas: "Personas" "Automotores" "Inmobiliario"; }
   .Personas {
     grid-area: Personas; }
   .Automotores {
@@ -1659,7 +1617,6 @@ textarea:hover {
     margin-bottom: 25px; } }
 
 /* MEDIAS QUERIES 2 */
-
 @media (max-width: 830px) {
   .lineaAzul {
     width: 100%;
@@ -1672,9 +1629,7 @@ textarea:hover {
     display: none; } }
 
 /* MEDIA Q - CIUDADANIAS */
-
 /* MEDIAS QUERIES 1 */
-
 @media (max-width: 1083px) {
   .contenedorGridGestoria {
     display: grid;
@@ -1684,9 +1639,7 @@ textarea:hover {
     grid-auto-columns: 1fr;
     gap: 2px 2px;
     grid-auto-flow: row;
-    grid-template-areas: "Personas"
- "Automotores"
- "Inmobiliario"; }
+    grid-template-areas: "Personas" "Automotores" "Inmobiliario"; }
   .Personas {
     grid-area: Personas; }
   .Automotores {
@@ -1710,7 +1663,6 @@ textarea:hover {
     margin-bottom: 25px; } }
 
 /* MEDIAS QUERIES 2 */
-
 @media (max-width: 830px) {
   .lineaAzul {
     width: 100%;
@@ -1723,7 +1675,6 @@ textarea:hover {
     display: none; } }
 
 /* MEDIAS QUERIES 3 */
-
 @media (max-width: 502px) {
   .cardMensaje {
     width: 350px;
