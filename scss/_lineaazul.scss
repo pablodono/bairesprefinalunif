@@ -1,4 +1,5 @@
 $bgla: #121F3D;
+$bglared: red;
 $bghoverla: rgb(98, 37, 197);
 $bordersolidla: #03A9F4;
 
@@ -11,8 +12,11 @@ $fondobarra:azul;
     @else if ($fondobarra == negro){
         background-color: black;
     }
+    @else if ($fondobarra == rojo){
+        background-color: $bglared;
+    }
     @else {
-        background-color: red;
+        background-color: rgb(14, 156, 78);
     }
 }
 

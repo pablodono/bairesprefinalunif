@@ -1,3 +1,26 @@
+$bgla: #121F3D;
+$bglared: red;
+$bghoverla: rgb(98, 37, 197);
+$bordersolidla: #03A9F4;
+
+$fondocontactos:azul;
+
+.contenedorCont {
+    @if ($fondocontactos == azul){
+        background-color: $bgla;
+    }
+    @else if ($fondocontactos == negro){
+        background-color: black;
+    }
+    @else if ($fondocontactos == rojo){
+        background-color: $bglared;
+    }
+    @else {
+        background-color: rgb(14, 156, 78);
+    }
+}
+
+
 .Contacto1, .Contacto2, .Contacto3 {
     background-color: #121F3D;
 }
@@ -17,7 +40,6 @@
 .Contacto3 { grid-area: Contacto3; }
 
 .contenedorCont {
-    background-color: #121F3D;
     align-items: center;
     justify-items: center;
     flex-wrap: nowrap;

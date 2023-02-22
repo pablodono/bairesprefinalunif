@@ -1094,6 +1094,9 @@ textarea:hover {
 
 /* FIN FORMULARIO */
 /* CONTACTO GENERAL */
+.contenedorCont {
+  background-color: #121F3D; }
+
 .Contacto1, .Contacto2, .Contacto3 {
   background-color: #121F3D; }
 
@@ -1116,7 +1119,6 @@ textarea:hover {
   grid-area: Contacto3; }
 
 .contenedorCont {
-  background-color: #121F3D;
   align-items: center;
   justify-items: center;
   flex-wrap: nowrap;
